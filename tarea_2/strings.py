@@ -1,11 +1,11 @@
 #Pide al usuario las frases
 string_1= str(input("Ingrese la primer palabra: "))
-string_2= str(input("Ingrese la segunda palabra, del mismo largo de la primera: \n"))
+string_2= str(input("Ingrese la segunda palabra, del mismo largo de la primera: "))
 
 
 #Si las frases no son del mismo tamaño, error
 if len(string_2) != len(string_1):
-    print(f"Error, las palabras deben tener el mismo largo")
+    print(f"\nError, las palabras deben tener el mismo largo")
 else:
     #Inicializa un contador en cero
     x=0
@@ -14,4 +14,4 @@ else:
     while x < len(string_1):
         nueva_string+=string_1[x]+string_2[x]
         x+=1
-    print(nueva_string)
+    print(f"\n{nueva_string}")
