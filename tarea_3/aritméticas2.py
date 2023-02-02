@@ -1,7 +1,6 @@
 #calcula la división  entera de dos numeros
 def calcular_division(num_1, num_2):
-    
-    pass
+    return num_1 // num_2
 
 #calcula el factorial de un numero
 def calcular_factorial(n):
@@ -12,5 +11,4 @@ def calcular_factorial(n):
 
 #calcula la potencia de un numero
 def calcular_potencia(base, exponente):
-
-    pass
+    return base ** exponente
