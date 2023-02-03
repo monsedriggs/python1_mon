@@ -31,3 +31,5 @@ def calcular_multiplicar(number_list):
 
 # Definir Resta 
      
+def calcular_resta( num_1, num_2):
+    
