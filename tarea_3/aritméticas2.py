@@ -15,11 +15,10 @@ def calcular_potencia(base, exponente):
 
     pass
 
-# Definir la funcion 
-def calcular_suma(operacion_math):
-   #Variable resultado
-    result = eval(operacion_math)
-# definir variable Operacion math
-    print(result )
-operacion_math = input("ingrese la suma que desea realizar: " )
-calcular_suma (operacion_math)
+# Definir Suma
+def calcular_suma (number_list):
+    suma = 0
+    for num in number_list:
+        suma =  suma + num
+    return
+calcular_suma(number_list)
