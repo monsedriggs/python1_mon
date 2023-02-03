@@ -20,5 +20,14 @@ def calcular_suma (number_list):
     suma = 0
     for num in number_list:
         suma =  suma + num
-    return
-calcular_suma(number_list)
+
+
+# Definir Multiplicacion
+def calcular_multiplicar(number_list):
+    producto = 1
+    for num in number_list:
+        producto *= num
+    return producto
+
+# Definir Resta 
+     
