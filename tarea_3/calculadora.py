@@ -1,4 +1,5 @@
 import aritméticas2
+import agregar_resultados
 
 def correr():
    while True:
@@ -6,8 +7,14 @@ def correr():
         #ejecuta la suma
         if opcion== "+":
             #pide los numeros al usuario
-            
-            print(f"El resultado de la suma es: ")#imprime el resultado
+            lista_suma= []
+            num_suma= int("Digite el numero por sumar (0 para terminar): ")
+            while num_suma !=0:
+                lista_suma.append(num_suma)
+                num_suma= int("Digite el numero por sumar (0 para terminar): ")
+            suma= aritméticas2.calcular_suma(lista_suma)
+            print(f"El resultado de la suma es:{suma} ")#imprime el resultado
+            resultado_suma= agregar_resultados.agregar_resultados(suma)
             pass
         #ejecuta la resta
         elif opcion== "-":
