@@ -1,4 +1,4 @@
-#calcula la división  entera de dos numeros
+#calcula la división entera de dos numeros
 def calcular_division(num_1, num_2):
     return num_1 // num_2
 
