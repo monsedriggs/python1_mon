@@ -1,7 +1,7 @@
-+,30
--,30
-*,18
-//,5
-!,120
-^,27
-^,8
+La operacion realizada fue: !, Los numeros utilizados en la operacion son: 5, El resultado es: 120
+La operacion realizada fue: +, Los numeros utilizados en la operacion son: [15, 8, 4], El resultado es: 27
+La operacion realizada fue: -, Los numeros utilizados en la operacion son: [7, 3], El resultado es: 4
+La operacion realizada fue: *, Los numeros utilizados en la operacion son: [2, 6], El resultado es: 12
+La operacion realizada fue: /, Los numeros utilizados en la operacion son: [125, 5], El resultado es: 25
+La operacion realizada fue: ^, Los numeros utilizados en la operacion son: [4, 2], El resultado es: 16
+La operacion realizada fue: +, Los numeros utilizados en la operacion son: [-7, 8], El resultado es: 1
