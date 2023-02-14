@@ -35,7 +35,7 @@ contar_caracteres("Albaricoque")
 contar_caracteres("meLlizAs")
 
 
-#Elimina todas las apariciones de un elemento
+#Elimina todas las apariciones de un elemento en una string
 def eliminar_elementos(lista_elementos, eliminado):
     for i in lista_elementos:
         if i == eliminado:
