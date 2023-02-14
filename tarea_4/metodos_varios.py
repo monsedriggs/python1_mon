@@ -35,7 +35,7 @@ contar_caracteres("Albaricoque")
 contar_caracteres("meLlizAs")
 
 
-#Elimina todas las apariciones de un elemento en una string
+#Elimina todas las apariciones de un elemento en una lista
 def eliminar_elementos(lista_elementos, eliminado):
     for i in lista_elementos:
         if i == eliminado:
@@ -49,12 +49,12 @@ eliminar_elementos(["manzana","pastel","harina","pastel","huevo"],"pastel")
 
 
 #Crea una lista y una tupla de una entrada 
-def crear_lista_tupla(numeros):
-    list_numeros=numeros.split(",")
-    tuple_numeros=tuple(list_numeros)
+def crear_lista_tupla(*numeros):
+    list_numeros= list(numeros)
+    tuple_numeros= tuple(list_numeros)
     print(f"Lista: {list_numeros}\nTupla: {tuple_numeros}")
 
-crear_lista_tupla("1,2,3,4,5,6")
-crear_lista_tupla("5,10,15,20,25")
-crear_lista_tupla("7,8,9,10")
-crear_lista_tupla("9,27,18,21")
+crear_lista_tupla(1,2,3,4,5,6)
+crear_lista_tupla(5,10,15,20,25)
+crear_lista_tupla(7,8,9,10)
+crear_lista_tupla(9,27,18,21)
